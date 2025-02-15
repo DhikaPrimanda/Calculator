@@ -15,8 +15,10 @@
             </div>
             <div class="buttons">
                 <button class="operator" onclick="clearDisplay()">C</button>
-                <button class="operator" onclick="squareRoot()">√</button>
-                <button class="operator" onclick="backSpace()">⟸</button>
+                <button class="operator" onclick="squareRoot()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="30" height="30" stroke-width="2"> <path d="M13 12h1c1 0 1 1 2.016 3.527c.984 2.473 .984 3.473 1.984 3.473h1"></path> <path d="M12 19c1.5 0 3 -2 4 -3.5s2.5 -3.5 4 -3.5"></path> <path d="M3 12h1l3 8l3 -16h10"></path> </svg> </button>
+                <button class="operator" onclick="backSpace()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="30" height="30" stroke-width="2"> <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z"></path> <path d="M12 10l4 4m0 -4l-4 4"></path> </svg> 
+                </button>
                 <button class="operator" onclick="addValue('÷')">÷</button>
                 <button onclick="addValue('7')">7</button>
                 <button onclick="addValue('8')">8</button>
@@ -30,7 +32,11 @@
                 <button onclick="addValue('2')">2</button>
                 <button onclick="addValue('3')">3</button>
                 <button class="operator" onclick="addValue('+')">+</button>
-                <button class="theme-mode" id="themeMode" onclick="themeMode()"></button>
+                <button class="theme-mode" id="themeMode" onclick="themeMode()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="30" height="30" stroke-width="2">
+                        <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+                    </svg>
+                </button>
                 <button onclick="addValue('0')">0</button>
                 <button onclick="addValue('.')">.</button>
                 <button class="result" onclick="calculate()">=</button>

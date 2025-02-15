@@ -52,7 +52,7 @@ button{
     background-color: white;
     width: 100%;
     height: 4.35rem;
-    font-size: 2em;
+    font-size: 30px;
     border-radius: 10px;
     border: none;
     color: black;
@@ -72,6 +72,10 @@ button:hover{
 
 .operator{
     background-color: white;
+    color: orange;
+}
+
+.theme-mode svg{
     color: orange;
 }
 
@@ -105,9 +109,4 @@ button:hover{
 .darkOperator{
     background-color: rgb(25, 25, 25);
     color: orange;
-}
-
-.backspace-icon{
-    width: 36px;
-    height: 36px;
 }

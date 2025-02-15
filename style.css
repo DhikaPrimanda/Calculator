@@ -70,6 +70,10 @@ button:hover{
     color: white;
 }
 
+.result:hover{
+    background-color: rgb(230, 150, 0);
+}
+
 .operator{
     background-color: white;
     color: orange;
@@ -104,6 +108,10 @@ button:hover{
 .darkResult{
     background-color: orange;
     color: black;
+}
+
+.darkResult:hover{
+    background-color: rgb(255, 181, 44);
 }
 
 .darkOperator{

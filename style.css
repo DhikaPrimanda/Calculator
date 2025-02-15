@@ -110,3 +110,7 @@ button:hover{
     background-color: rgb(25, 25, 25);
     color: orange;
 }
+
+body, .calculator-box, .display, button {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}

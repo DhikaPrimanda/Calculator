@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator-box" id="calculator-box">
+            <div class="display-container">
+                <input type="text" id="display" class="display" disabled>
+            </div>
+            <div class="buttons">
+                <button class="operator" onclick="clearDisplay()">C</button>
+                <button class="operator" onclick="squareRoot()">√</button>
+                <button class="operator" onclick="backSpace()">⟸</button>
+                <button class="operator" onclick="addValue('÷')">÷</button>
+                <button onclick="addValue('7')">7</button>
+                <button onclick="addValue('8')">8</button>
+                <button onclick="addValue('9')">9</button>
+                <button class="operator" onclick="addValue('×')">×</button>
+                <button onclick="addValue('4')">4</button>
+                <button onclick="addValue('5')">5</button>
+                <button onclick="addValue('6')">6</button>
+                <button class="operator" onclick="addValue('−')">−</button>
+                <button onclick="addValue('1')">1</button>
+                <button onclick="addValue('2')">2</button>
+                <button onclick="addValue('3')">3</button>
+                <button class="operator" onclick="addValue('+')">+</button>
+                <button class="theme-mode" id="themeMode" onclick="themeMode()"></button>
+                <button onclick="addValue('0')">0</button>
+                <button onclick="addValue('.')">.</button>
+                <button class="result" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
